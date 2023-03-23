@@ -58,7 +58,7 @@ class Tree {
         }
     }
 }
-function knightMoves(start, end) {
+knightMoves = function (start, end) {
     let knight = new Tree(start, end)
     console.log(knight.AllPaths())
 }
